@@ -94,12 +94,12 @@ puts eight.to_f
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
 
-# deletes an element at a particular index
-# prints [1, 2, 4, 5]
+# deletes an element at a particular index and returns that value
+# prints 3
 array_1 = [1, 2, 3, 4, 5]
 puts array_1.delete_at(2)
 
-# deletes a particular element anywhere in an array
-# prints # prints [1, 3, 4, 5]
+# deletes a particular element anywhere in an array and returns that value
+# prints # prints 2
 array_1 = [1, 2, 3, 4, 5]
 puts array_1.delete(2)
